@@ -10,6 +10,9 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: dim_lineitem
+      description: "Customer table"
+      
 sources:
   - name: sample_db
     database: SNOWFLAKE_SAMPLE_DATA
